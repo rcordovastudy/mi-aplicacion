@@ -6,7 +6,7 @@ pipeline {
             steps {
                 script {
                     // Construye la imagen Docker
-                    docker.build("dockefile:lastest")
+                    docker.build("dockerfile:lastest")
                 }
             }
         }
